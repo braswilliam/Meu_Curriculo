@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+}
+
+body{
+
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+main{
+    max-width: 900px; 
+    font-family: var(--roboto);
+    border: 5px solid #505050;
+    border-radius: 10px;
+
+    background-color: lightgray;
+}
+
+
+.foto_profile{
+    width: 200px;
+    border-radius: 100%;
+    border: 1px solid #505050;
+    float: right;
+    margin: 10px 150px 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: var(--gugi);
+}
+
+h2{
+    margin-left: 20px;
+    font-family: var(--gugi);
+}
+
+p{
+    margin-left: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--light-gray);
+    font-size: 15px;
+
+}
